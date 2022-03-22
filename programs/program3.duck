@@ -1,0 +1,11 @@
+program program3; 
+var result: int;
+{
+    result = 2 + 5 * (3 - 1);
+    
+    if (result < 12) {
+        print(result, " is less than 12");
+    } else {
+        print(result, " is more than or equal to 12");
+    };
+}
